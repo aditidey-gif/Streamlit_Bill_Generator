@@ -54,6 +54,6 @@ Contributions, issues, and feature requests are welcome! Feel free to open a pul
 
 
 
-📜 **License**📜
+📜 **LICENSE**📜
 
 This project is licensed under the MIT License.
