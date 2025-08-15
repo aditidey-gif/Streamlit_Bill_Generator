@@ -30,7 +30,7 @@ https://github.com/aditidey-gif/Streamlit_Bill_Generator/blob/main/Bill.py
 **Install the required libraries:**
 pip install streamlit
 
-**Run the App: Open your terminal and type this command.:**
+**Run the App: Open your terminal and type this command:**
 streamlit run Bill.py
 
 📖 **Code Structure**
