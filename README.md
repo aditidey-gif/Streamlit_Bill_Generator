@@ -20,13 +20,12 @@ A simple yet effective web application built with Streamlit and Python to genera
 
 **Clone the repository:**
 
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-Install the required libraries:
+https://github.com/aditidey-gif/Streamlit_Bill_Generator/blob/main/Bill.py
 
+**Install the required libraries:**
 pip install streamlit
 
-**Run the application:**
+**Run the App: Open your terminal and type this command.:**
 streamlit run Bill.py
 
 📖 **Code Structure**
