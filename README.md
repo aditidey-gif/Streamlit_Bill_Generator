@@ -1,4 +1,7 @@
-<img width="592" height="611" alt="image" src="https://github.com/user-attachments/assets/ba779b44-d304-4c3b-832f-5f4b208ad5eb" />
+<img width="450" height="604" alt="image" src="https://github.com/user-attachments/assets/880b762c-2533-4c2f-89d3-6fc1e233ad8e" />
+<img width="376" height="429" alt="image" src="https://github.com/user-attachments/assets/3221ab26-06a1-4f14-9563-d3c795940d1d" />
+
+
 
 # Streamlit_Bill_Generator
 
