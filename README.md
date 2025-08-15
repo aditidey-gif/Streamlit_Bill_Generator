@@ -7,7 +7,7 @@
 
 A simple yet effective web application built with Streamlit and Python to generate professional-looking bills and invoices. This tool is designed to be easy to use, allowing for quick creation of bills with automatic calculations and a clean, readable format.
 
-✨**Features**
+✨**Features**✨
 
 **User-Friendly Interface:** A clear and intuitive Streamlit app layout for entering customer and product details.
 
@@ -21,7 +21,7 @@ A simple yet effective web application built with Streamlit and Python to genera
 
 **Downloadable Bills:** Generate and download the bill as a .txt file for easy sharing or printing.
 
-🚀 **How to Run**
+🚀 **How to Run**🚀
 
 **Clone the repository:**
 
@@ -33,7 +33,8 @@ pip install streamlit
 **Run the App: Open your terminal and type this command:**
 streamlit run Bill.py
 
-📖 **Code Structure**
+📖 **Code Structure**📖
+
 **convert_amount_to_words(number):** A helper function that converts a numerical value into words, specifically for the Indian currency system.
 
 **generate_bill_content(shop_details, customer_details, products):** This function formats all the bill data into a clean, well-aligned string ready for display and download.
@@ -42,8 +43,10 @@ streamlit run Bill.py
 
 **Session State:** The app uses st.session_state to store and manage the list of products added by the user.
 
-🤝 **Contribution**
+🤝 **Contribution**🤝
+
 Contributions, issues, and feature requests are welcome! Feel free to open a pull request or submit an issue on this repository.
 
-📜 **License**
+📜 **License**📜
+
 This project is licensed under the MIT License.
