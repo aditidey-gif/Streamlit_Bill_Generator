@@ -1,3 +1,5 @@
+<img width="592" height="611" alt="image" src="https://github.com/user-attachments/assets/ba779b44-d304-4c3b-832f-5f4b208ad5eb" />
+
 # Streamlit_Bill_Generator
 
 A simple yet effective web application built with Streamlit and Python to generate professional-looking bills and invoices. This tool is designed to be easy to use, allowing for quick creation of bills with automatic calculations and a clean, readable format.
