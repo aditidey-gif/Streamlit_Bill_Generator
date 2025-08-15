@@ -21,10 +21,11 @@ A simple yet effective web application built with Streamlit and Python to genera
 
 **Downloadable Bills:** Generate and download the bill as a .txt file for easy sharing or printing.
 
+
+
 🚀 **How to Run**🚀
 
 **Clone the repository:**
-
 https://github.com/aditidey-gif/Streamlit_Bill_Generator/blob/main/Bill.py
 
 **Install the required libraries:**
@@ -32,6 +33,8 @@ pip install streamlit
 
 **Run the App: Open your terminal and type this command:**
 streamlit run Bill.py
+
+
 
 📖 **Code Structure**📖
 
@@ -43,9 +46,13 @@ streamlit run Bill.py
 
 **Session State:** The app uses st.session_state to store and manage the list of products added by the user.
 
+
+
 🤝 **Contribution**🤝
 
 Contributions, issues, and feature requests are welcome! Feel free to open a pull request or submit an issue on this repository.
+
+
 
 📜 **License**📜
 
