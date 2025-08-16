@@ -122,10 +122,9 @@ st.markdown("---")
 
 # 1. Shop Details
 st.sidebar.header("Shop Details")
-shop_name = st.sidebar.text_input("Shop Name", "Eg. Gadget World")
-shop_address = st.sidebar.text_area("Shop Address", '''Eg. Shop No. 7, Tech Park Square, Sector 4, Baner, 
-Pune - 411045, Maharashtra''')
-shop_phone = st.sidebar.text_input("Shop Phone Number", "Eg. +91 80070 80070")
+shop_name = st.sidebar.text_input("Shop Name")
+shop_address = st.sidebar.text_area("Shop Address")
+shop_phone = st.sidebar.text_input("Shop Phone Number")
 
 # 2. Customer and Bill Details
 st.header("Customer Details")
