@@ -60,7 +60,7 @@ def convert_amount_to_words(number):
     if integer_part > 0:
         words.append(_convert_part(integer_part))
         words.append("Rupees")
-        
+    
     if decimal_part > 0:
         if integer_part > 0:
             words.append("and")
@@ -120,13 +120,12 @@ _______________________________________________________________________
 st.title("🧾BILL GENERATOR🧾")
 st.markdown("---")
 
-# 1. Shop Details (Hardcoded)
-shop_details = {
-    "name": "Gadget World",
-    "address": '''Shop No. 7, Tech Park Square, Sector 4, Baner, 
-Pune - 411045, Maharashtra''',
-    "phone": "+91 80070 80070"
-}
+# 1. Shop Details
+st.sidebar.header("Shop Details")
+shop_name = st.sidebar.text_input("Shop Name", "Gadget World")
+shop_address = st.sidebar.text_area("Shop Address", '''Shop No. 7, Tech Park Square, Sector 4, Baner, 
+Pune - 411045, Maharashtra''')
+shop_phone = st.sidebar.text_input("Shop Phone Number", "+91 80070 80070")
 
 # 2. Customer and Bill Details
 st.header("Customer Details")
@@ -180,6 +179,13 @@ st.markdown("---")
 
 # 4. Generate Bill and Download
 if st.button("Generate & Display Bill"):
+    # Create the shop_details dictionary dynamically from user input
+    shop_details = {
+        "name": shop_name,
+        "address": shop_address,
+        "phone": shop_phone
+    }
+    
     customer_details = {
         "customer_name": customer_name if customer_name else "N/A",
         "customer_phone": customer_phone if customer_phone else "N/A",
